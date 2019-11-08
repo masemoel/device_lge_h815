@@ -8,6 +8,7 @@
 #
 #      http://www.apache.org/licenses/LICENSE-2.0
 #
+
 # Unless required by applicable law or agreed to in 
 # writing, software distributed under the License is 
 # distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR 
@@ -16,3 +17,8 @@
 # permissions and limitations under the License.
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/havoc_h815.mk
+
+# Screen density
+# must be defined here as they get readonly later on
+PRODUCT_AAPT_PREF_CONFIG := 560dpi
+PRODUCT_AAPT_PREBUILT_DPI := xxxhdpi xxhdpi xhdpi hdpi
