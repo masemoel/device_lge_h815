@@ -26,3 +26,4 @@ PRODUCT_PACKAGES += \
 
 # common g4
 $(call inherit-product, device/lge/g4-common/g4.mk)
+$(call inherit-product-if-exists, vendor/gapps/config.mk)
