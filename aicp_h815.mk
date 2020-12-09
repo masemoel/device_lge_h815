@@ -19,10 +19,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit ROM vendor common stuff
-$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
-
-# Inherit ROM vendor telephony stuff
-$(call inherit-product, vendor/havoc/config/telephony.mk)
+$(call inherit-product, vendor/aicp/config/common_full_phone.mk)
 
 # Overlays (inherit after vendor to ensure we override it)
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
@@ -31,7 +28,7 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 $(call inherit-product, device/lge/h815/device.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := havoc_h815
+PRODUCT_NAME := aicp_h815
 PRODUCT_DEVICE := h815
 PRODUCT_BRAND := lge
 PRODUCT_MODEL := LG-H815

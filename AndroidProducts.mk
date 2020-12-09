@@ -16,7 +16,7 @@
 # the License for the specific language governing 
 # permissions and limitations under the License.
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/havoc_h815.mk
+    $(LOCAL_DIR)/aicp_h815.mk
 
 # Screen density
 # must be defined here as they get readonly later on
