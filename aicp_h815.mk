@@ -48,12 +48,10 @@ TARGET_INCLUDE_STOCK_ARCORE := true
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE="g4" \
-    PRODUCT_NAME="p1_tmo_us" \
-    PRIVATE_BUILD_DESC="google/redfin/redfin:11/RQ1A.201205.010/6953398:user/release-keys"
+    PRODUCT_NAME="p1_global_com" \
+    PRIVATE_BUILD_DESC="p1_global_com-user 6.0 MRA58K 152940055675e release-keys"
 
-BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ1A.201205.010/6953398:user/release-keys"
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.build.fingerprint=$(BUILD_FINGERPRINT)
+BUILD_FINGERPRINT := "lge/p1_global_com/p1:6.0/MRA58K/152940055675e:user/release-keys"
 
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.do_not_init_csvt=1 \
