@@ -24,6 +24,6 @@ PRODUCT_AAPT_PREF_CONFIG := 560dpi
 PRODUCT_AAPT_PREBUILT_DPI := xxxhdpi xxhdpi xhdpi hdpi
 
 COMMON_LUNCH_CHOICES := \
-    aicp_picasso-eng \
-    aicp_picasso-userdebug \
-    aicp_picasso-user
+    aicp_h815-eng \
+    aicp_h815-userdebug \
+    aicp_h815-user
